@@ -6,7 +6,8 @@ module.exports = {
     es6: true,
     es2017: true,
     es2020: true,
-    es2021: true
+    es2021: true,
+    'vue/setup-compiler-macros': true
   },
   extends: [
     'plugin:vue/vue3-essential',
@@ -22,7 +23,8 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    '@typescript-eslint/no-var-requires': 'off'
+    '@typescript-eslint/no-var-requires': 'off',
+    'no-undef': 'off'
   },
   overrides: [
     {

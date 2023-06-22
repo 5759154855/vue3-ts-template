@@ -7,9 +7,6 @@
 </template>
 
 <script setup lang="ts">
-  import { defineEmits } from 'vue'
-  // defineEmits 不需要引入就可以使用 eslint 报错
-  // error  'defineEmits' is not defined  no-undef -- eslint
   let $emit = defineEmits(['xxx', 'click'])
   const handler = () => $emit('xxx', 1, 2)
 </script>

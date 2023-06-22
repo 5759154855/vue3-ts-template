@@ -6,7 +6,6 @@
 </template>
 
 <script setup lang="ts">
-  import { defineProps } from 'vue'
   let props = defineProps(['money'])
   console.log(props)
 </script>
