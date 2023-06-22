@@ -1,8 +1,10 @@
 <template>
   <div>
     <nav>
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
+      <router-link to="/props">props</router-link>
+      <router-link to="/event">event</router-link>
     </nav>
     <router-view />
     <div class="counter">
@@ -42,7 +44,7 @@
     a {
       font-weight: bold;
       color: #2c3e50;
-
+      margin: 5px;
       &.router-link-exact-active {
         color: #42b983;
       }
