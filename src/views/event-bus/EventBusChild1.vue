@@ -9,7 +9,10 @@
   import $bus from '@/bus'
   import { ref, onMounted } from 'vue'
   let car = ref('电动车')
-  onMounted(() => $bus.on('car', (v) => (car.value = v.car)))
+  interface CarEvent {
+    car: string
+  }
+  onMounted(() => $bus.on('car', (v: CarEvent) => (car.value = v.car)))
 </script>
 
 <style scoped>

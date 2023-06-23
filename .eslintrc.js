@@ -26,7 +26,8 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     'no-undef': 'off',
     // 'vue/multi-word-comnnent-names': 0,
-    'vue/no-v-model-argument': 0
+    'vue/no-v-model-argument': 0,
+    '@typescript-eslint/no-explicit-any': 'off'
   },
   overrides: [
     {
