@@ -7,11 +7,7 @@
 <script setup lang="ts">
   import $bus from '@/bus'
   import { onMounted } from 'vue'
-  onMounted(() => {
-    $bus.on('car', (car) => {
-      console.log(car)
-    })
-  })
+  onMounted(() => $bus.on('car', (car) => console.log(car)))
 </script>
 
 <style scoped>
