@@ -5,12 +5,13 @@
       <router-link to="/about">About</router-link>
       <router-link to="/props">props</router-link>
       <router-link to="/event">event</router-link>
+      <router-link to="/eventBus">eventBus</router-link>
     </nav>
     <router-view />
     <div class="counter">
-      <button @click="decrement">-</button>
+      <el-button type="primary" @click="decrement">-</el-button>
       <span>{{ count }}</span>
-      <button @click="increment">+</button>
+      <el-button type="primary" @click="increment">+</el-button>
     </div>
   </div>
 </template>

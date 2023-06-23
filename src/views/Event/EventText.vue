@@ -6,9 +6,6 @@
 </template>
 
 <script setup lang="ts">
-  // vue3 import 默认注册 -- 只是 Vetur 提示 并不报错 不影响 不美观
-  // import Chind
-  // Module '"e:/project/vue3-ts-template/src/views/Event/EventChild.vue"' has no default export.Vetur(1192)
   import EventChild from './EventChild.vue'
   const handler = (param1, param2) => console.log(param1, param2)
 </script>
