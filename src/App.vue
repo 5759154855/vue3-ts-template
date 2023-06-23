@@ -1,10 +1,7 @@
 <template>
   <div>
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/props">props</router-link>
-      <router-link to="/event">event</router-link>
+      <router-link to="/">event</router-link>
       <router-link to="/eventBus">eventBus</router-link>
       <router-link to="/model">model</router-link>
     </nav>

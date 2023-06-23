@@ -1,7 +1,8 @@
 <template>
   <div class="son">
     <h1>子组件2</h1>
-    <el-button @click="handler">click me</el-button>
+    <el-button @click="handler">送你法拉利</el-button>
+    <el-button @click="$bus.emit('car', { car: '电动车' })">送你电动车</el-button>
   </div>
 </template>
 
