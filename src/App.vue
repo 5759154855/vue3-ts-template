@@ -6,32 +6,13 @@
       <router-link to="/props">props</router-link>
       <router-link to="/event">event</router-link>
       <router-link to="/eventBus">eventBus</router-link>
+      <router-link to="/model">model</router-link>
     </nav>
     <router-view />
-    <div class="counter">
-      <el-button type="primary" @click="decrement">-</el-button>
-      <span>{{ count }}</span>
-      <el-button type="primary" @click="increment">+</el-button>
-    </div>
   </div>
 </template>
 
-<script lang="ts">
-  import { defineComponent, ref } from 'vue'
-  export default defineComponent({
-    name: 'MyCounter',
-    setup() {
-      const count = ref(0)
-      function increment() {
-        count.value++
-      }
-      function decrement() {
-        count.value--
-      }
-      return { count, increment, decrement }
-    }
-  })
-</script>
+<script setup lang="ts"></script>
 <style lang="scss">
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -49,19 +30,6 @@
       &.router-link-exact-active {
         color: #42b983;
       }
-    }
-  }
-  .counter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    button {
-      margin: 0 8px;
-      padding: 4px 8px;
-      font-size: 16px;
-    }
-    span {
-      font-size: 24px;
     }
   }
 </style>

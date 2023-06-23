@@ -5,7 +5,8 @@ const routes: Array<RouteRecordRaw> = [
   { path: '/about', name: 'about', component: () => import('@/views/AboutView.vue') },
   { path: '/props', name: 'props', component: () => import('@/views/props/PropsText.vue') },
   { path: '/event', name: 'event', component: () => import('@/views/event/EventText.vue') },
-  { path: '/eventBus', name: 'eventBus', component: () => import('@/views/event-bus/EventBusText.vue') }
+  { path: '/eventBus', name: 'eventBus', component: () => import('@/views/event-bus/EventBusText.vue') },
+  { path: '/model', name: 'model', component: () => import('@/views/v-model/ModelText.vue') }
 ]
 
 const router = createRouter({
