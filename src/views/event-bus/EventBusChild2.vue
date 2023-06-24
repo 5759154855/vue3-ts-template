@@ -14,7 +14,7 @@
 <style scoped>
   .son {
     width: 300px;
-    height: 300px;
+    height: 400px;
     background-color: hotpink;
   }
 </style>

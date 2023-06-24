@@ -20,7 +20,8 @@
     "paths": {
       "@/*": [
         "src/*"
-      ]
+      ],
+      "@/store/*": ["./src/store/*"]
     },
     "lib": [
       "esnext",

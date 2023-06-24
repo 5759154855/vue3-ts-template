@@ -4,6 +4,8 @@
       <router-link to="/">event</router-link>
       <router-link to="/eventBus">eventBus</router-link>
       <router-link to="/model">model</router-link>
+      <router-link to="/arrts-listeners">arrts-listeners</router-link>
+      <router-link to="/pinia">pinia</router-link>
     </nav>
     <router-view />
   </div>
