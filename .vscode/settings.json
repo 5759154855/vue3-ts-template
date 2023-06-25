@@ -17,6 +17,9 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     // 对json文件，使用 JSON语言功能 进行格式化
     "editor.defaultFormatter": "esbenp.prettier-vscode"
