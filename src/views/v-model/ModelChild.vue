@@ -25,10 +25,7 @@
   const handler = () => {
     $emit('update:money', props.money + 1000)
   }
-  interface ModelText {
-    money: number
-  }
-  const handler1 = (parent: ModelText) => {
+  const handler1 = (parent: any) => {
     my_money.value += 100
     parent.money -= 100
   }
