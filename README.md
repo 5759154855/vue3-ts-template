@@ -1,5 +1,13 @@
 # vue3-ts-template
 
+## 使用 
+
+Vue3 + TS + Axios + Pinia + Sass + mitt + Express (mysql)
+
+ [x] Axios
+
+ [x] Express
+
 ## import 组件 vetur 波浪线提示
 
 `禁用 vetur 启用 Volar`
@@ -18,6 +26,5 @@
 data?.type 是否可用 是否有报错
 
 <!-- src\views\event-bus\EventBusText.vue -->
-sass 使用
-
 sass 格式化
+
