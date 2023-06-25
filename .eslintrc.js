@@ -27,7 +27,8 @@ module.exports = {
     'no-undef': 'off',
     // 'vue/multi-word-comnnent-names': 0,
     'vue/no-v-model-argument': 0,
-    '@typescript-eslint/no-explicit-any': 'off'
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off'
   },
   overrides: [
     {

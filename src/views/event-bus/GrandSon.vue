@@ -8,7 +8,10 @@
 
 <script setup lang="ts">
   import { inject } from 'vue'
-  let car = inject('TOKEN')
+  interface Car {
+    value: string
+  }
+  let car = inject<Car>('TOKEN')!
   let handler = () => {
     car.value = '不完整的超跑'
   }
