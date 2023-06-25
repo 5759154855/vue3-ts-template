@@ -18,7 +18,7 @@
   provide('TOKEN', car)
 </script>
 
-<style scoped>
+<style scoped lang="sass">
   .box {
     width: 100vw;
     height: 600px;

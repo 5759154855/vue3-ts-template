@@ -1,10 +1,10 @@
 # vue3-ts-template
 
-# import 组件 vetur 波浪线提示
+## import 组件 vetur 波浪线提示
 
 `禁用 vetur 启用 Volar`
 
-# 待解决问题
+## 待解决问题
 
 ```json
 一、
@@ -13,8 +13,11 @@
 保存后报错消失
 ```
 
-# 潜在问题
+## 潜在问题
 
 data?.type 是否可用 是否有报错
 
-sass
+<!-- src\views\event-bus\EventBusText.vue -->
+sass 使用
+
+sass 格式化
