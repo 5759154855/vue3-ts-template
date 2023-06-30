@@ -18,14 +18,14 @@
   provide('TOKEN', car)
 </script>
 
-<style scoped lang="sass">
+<style scoped lang="scss">
   .box {
     width: 100vw;
     height: 600px;
     background-color: yellowgreen;
-  }
-  .container {
-    display: flex;
-    justify-content: space-between;
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 </style>
